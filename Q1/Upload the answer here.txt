@@ -1,1 +1,14 @@
-Upload the answer here
+import java.util.Scanner;
+public class FenceCalculator {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);      
+        System.out.print("Enter the perimeter of the fence: ");
+        double perimeter = scanner.nextDouble();
+        double length = perimeter / 3.5;
+        double width = 0.75 * length;
+        System.out.println("\n--- Fence Dimensions ---");
+        System.out.printf("Length: %.2f\n", length);
+        System.out.printf("Width:  %.2f\n", width);
+        scanner.close();
+    }
+}

@@ -1,1 +1,11 @@
-Upload the answer here
+public class IT26102744Lab2Q2 {
+    public static void main(String[] args) {
+        double length = 10;
+        double pi = 3.14;  
+        double perimeter = 4 * length;
+        double radius = perimeter / (2 * pi);
+        System.out.println("Side length of the square: " + length);
+        System.out.println("Total length of the rope (Perimeter): " + perimeter);
+        System.out.printf("Radius of the circular fence: %.2f\n", radius);
+    }
+}
